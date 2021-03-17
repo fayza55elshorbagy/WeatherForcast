@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">WeatherForcast</string>
+    <string name="title_home">Home</string>
+    <string name="title_alert">Alert</string>
+    <string name="title_Setting">Settings</string>
+    <string name="alarm">Alarm</string>
+    <string name="events">Events</string>
+    <string name="event1">Rain</string>
+    <string name="event2">Cloud</string>
+    <string name="event3">Wind</string>
+    <string name="event4">Fog</string>
+    <string name="event5">Storm</string>
+    <string name="event6">ThunderStorm</string>
+    <string name="notifications">Notifications</string>
+    <string name="For_next">Set Time</string>
+    <string name="check_events_at">Check events at</string>
+    <string name="time">Choose Time</string>
+    <string name="duration">Choose Duration</string>
+    <string name="just_once">Just once</string>
+    <string name="every_week">Every Week</string>
+    <string name="alarm_sound">Alarm Sound</string>
+    <string name="temp">Temp</string>
+    <string name="setting_fragment">Setting</string>
+    <string name="wind">Wind</string>
+    <string name="title">Map Alert!</string>
+    <string name="description">Map is loading ...\nPlease open it again</string>
+    <string name="positive">Yes</string>
+    <string name="negative">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="cloud">Cloud</string>
+    <string name="weather_location_setting">WeatherLocation</string>
+    <string name="use_device_loc">Use device location</string>
+    <string name="allow_app">allow the app to get you location</string>
+    <string name="edit_location">Location</string>
+    <string name="locationDisplayed">The location for which the weather is displayed</string>
+    <string name="units">Units</string>
+    <string name="unit_system">Unit System</string>
+    <string name="languages">Languages</string>
+    <string name="lang_value">language</string>
+    <string name="unit_metric">Metric</string>
+    <string name="unit_imp">Imperial</string>
+    <string name="set_alarm">Set Alarm</string>
+
+
+</resources>

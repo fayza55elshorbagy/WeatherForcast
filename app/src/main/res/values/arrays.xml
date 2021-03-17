@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="unitSystemValues">
+        <item>METRIC</item>
+        <item>IMPERIAL</item>
+    </string-array>
+
+    <string-array name="unitSystemEntries">
+        <item>@string/unit_metric</item>
+        <item>@string/unit_imp</item>
+    </string-array>
+
+    <string-array name="languageSystemValues">
+        <item>English</item>
+        <item>Arabic</item>
+    </string-array>
+
+    <string-array name="languageSystemEntries">
+        <item>ِEnglish</item>
+        <item>Arabic</item>
+    </string-array>
+
+</resources>

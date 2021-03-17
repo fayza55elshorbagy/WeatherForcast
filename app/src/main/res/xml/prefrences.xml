@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="   ">
+    <PreferenceCategory android:title="@string/weather_location_setting">
+
+    <SwitchPreference
+            android:defaultValue="false"
+            android:disableDependentsState="true"
+            android:key="USE_DEVICE_LOCATION"
+            android:summary="@string/allow_app"
+            android:title="@string/use_device_loc" />
+        <!--            android:dependency="USE_DEVICE_LOCATION"-->
+
+        <EditTextPreference
+            android:defaultValue="Damietta"
+            android:key="CUSTOM_LOCATION"
+            android:summary="@string/locationDisplayed"
+            android:title="@string/edit_location" />
+    </PreferenceCategory>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/units">
+        <ListPreference
+            android:defaultValue="METRIC"
+            android:entries="@array/unitSystemEntries"
+            android:entryValues="@array/unitSystemValues"
+            android:key="UNIT_SYSTEM"
+            android:summary="%s"
+            android:title="@string/unit_system" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/languages">
+        <ListPreference
+            android:defaultValue="English"
+            android:entries="@array/languageSystemEntries"
+            android:entryValues="@array/languageSystemValues"
+            android:key="LANGUAGE_SYSTEM"
+            android:summary="%s"
+            android:title="@string/lang_value" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

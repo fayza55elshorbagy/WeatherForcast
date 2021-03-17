@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="700dp"
+    android:padding="17dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="@string/events"
+        android:layout_marginLeft="5dp"
+        android:textSize="17dp"
+        android:layout_marginBottom="10dp"/>
+    <RadioGroup
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+            <RadioButton
+                android:id="@+id/rain_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:checked="false"
+                android:text="@string/event1" />
+            <RadioButton
+                android:id="@+id/cloud_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:checked="false"
+                android:text="@string/event2"/>
+            <RadioButton
+                android:id="@+id/wind_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:checked="false"
+                android:text="@string/event3" />
+            <RadioButton
+                android:id="@+id/fog_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:checked="false"
+                android:text="@string/event4" />
+            <RadioButton
+                android:id="@+id/storm_radio_button"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:checked="false"
+                android:text="@string/event5"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorTransparent"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="@string/time"
+            android:textSize="17dp" />
+        <ImageButton
+            android:id="@+id/alarm_check_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:background="#FBFAFB"
+            android:padding="10dp"
+            android:src="@drawable/calendar"
+            android:layout_marginLeft="60dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/duration"
+        android:textSize="17dp" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/just_once"
+            android:checked="true"
+            android:id="@+id/just_once"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/every_week"
+            android:id="@+id/every_week"/>
+
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorTransparent"
+        android:layout_marginTop="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            tools:text="@string/alarm_sound" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/notification"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="true"
+                android:text="@string/notifications"/>
+            <RadioButton
+                android:id="@+id/alarm_sound"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/alarm_sound"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/set_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_alarm" />
+    </LinearLayout>
+</LinearLayout>

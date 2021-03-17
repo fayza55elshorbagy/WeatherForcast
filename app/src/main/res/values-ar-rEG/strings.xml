@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الطقس</string>
+    <string name="title_home">القائمة الرئيسية</string>
+    <string name="title_alert">التنبيهات</string>
+    <string name="title_Setting">الاعدادات</string>
+    <string name="alarm">المنبه</string>
+    <string name="events">الاحداث</string>
+    <string name="event1">مطر</string>
+    <string name="event2">سحب</string>
+    <string name="event3">رياح</string>
+    <string name="event4">ضباب</string>
+    <string name="event5">عاصفة</string>
+    <string name="event6">رعد</string>
+    <string name="notifications">الاشعارات</string>
+    <string name="For_next">ضع وقت</string>
+    <string name="duration">اختر المدة</string>
+    <string name="time">اختر وقت</string>
+    <string name="just_once">مرة واحدة</string>
+    <string name="every_week">كل اسبوع</string>
+    <string name="alarm_sound">صوت المنبه</string>
+    <string name="check_events_at">ابحث ف وقت</string>
+    <string name="temp">درجة الحرارة</string>
+    <string name="wind">الرياح</string>
+    <string name="pressure">الضغط</string>
+    <string name="cloud">السحب</string>
+    <string name="weather_location_setting">موقع الطقس</string>
+    <string name="use_device_loc">استخدم مكان الجهاز</string>
+    <string name="setting_fragment">الاعدادات</string>
+    <string name="allow_app">اسمح للتطبيق ان يستخدم يحصل على مكانك</string>
+    <string name="edit_location">الموقع</string>
+    <string name="locationDisplayed">موقع الطقس الذى يعرض الان</string>
+    <string name="units">وحدات</string>
+    <string name="unit_system">وحدة النظام</string>
+    <string name="languages">اللغات</string>
+    <string name="title">تنبيه الخريطة</string>
+    <string name="description">الخريطة تحمل الان الرجاء فتحها مرة اخرى</string>
+    <string name="positive">نعم</string>
+    <string name="negative">لا</string>
+    <string name="cancel">لاحقا</string>
+    <string name="lang_value">اللغة</string>
+    <string name="humidity">الرطوبة</string>
+    <string name="unit_metric">ميترك</string>
+    <string name="unit_imp">امبيريل</string>
+    <string name="set_alarm">ضبط المنبه</string>
+
+</resources>
