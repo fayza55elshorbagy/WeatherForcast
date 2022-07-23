@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.weatherforcast.ui.weather.CurrentWeatherFragment"
+        android:name="com.wforcast.weatherforcast.ui.weather.CurrentWeatherFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" >
         <argument
@@ -17,17 +17,17 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.example.weatherforcast.ui.alarm.AlarmFragment"
+        android:name="com.wforcast.weatherforcast.ui.alarm.AlarmFragment"
         android:label="@string/title_alert"
         tools:layout="@layout/fragment_alarm" />
     <fragment
         android:id="@+id/settings"
-        android:name="com.example.weatherforcast.ui.settings.Settings"
+        android:name="com.wforcast.weatherforcast.ui.settings.Settings"
         android:label="@string/title_Setting" >
     </fragment>
     <fragment
         android:id="@+id/locationListFragment"
-        android:name="com.example.weatherforcast.ui.locationlist.LocationListFragment"
+        android:name="com.wforcast.weatherforcast.ui.locationlist.LocationListFragment"
         android:label="location_list_fragment"
         tools:layout="@layout/location_list_fragment" >
         <action
