@@ -225,17 +225,17 @@
   <androidx.recyclerview.widget.RecyclerView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_marginTop="20dp"
+      android:layout_marginTop="15dp"
       android:id="@+id/recycler_view"/>
  </LinearLayout>
 
  <FrameLayout
      android:id="@+id/sheet"
      android:layout_width="match_parent"
-     android:layout_height="545dp"
+     android:layout_height="wrap_content"
      app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
      android:background="@drawable/rounded"
-     android:paddingTop="10dp"
+     android:paddingTop="6dp"
      android:paddingLeft="10dp"
      android:paddingRight="10dp"
      android:paddingBottom="70dp">

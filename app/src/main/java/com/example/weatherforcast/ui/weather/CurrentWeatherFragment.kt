@@ -150,7 +150,7 @@ class CurrentWeatherFragment : ScopedFragment(),KodeinAware {
     }
 
     private fun updateLocation(lat: Double, lon: Double) {
-        var locale:Locale?=null
+        var locale:Locale = Locale("en")
         val sharedPreferences = PreferenceManager.getDefaultSharedPreferences(requireContext())
         val item = sharedPreferences.getString("LANGUAGE_SYSTEM","en")
         Log.i("info","Language "+sharedPreferences.getString("LANGUAGE_SYSTEM","en"))
